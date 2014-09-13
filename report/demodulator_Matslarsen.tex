@@ -1,0 +1,52 @@
+\input{preamble}
+\begin{document}
+
+
+%\input{front_page}
+
+\begin{titlingpage}
+%\thispagestyle{empty}
+\begin{center}
+\vspace*{5\onelineskip}
+\vspace*{5\onelineskip}
+%\vspace*{5\onelineskip}
+{ \baselineskip=24pt
+{\Huge \textsc{VLSI System Design }}\\
+\vspace*{2\onelineskip}
+{\large \textsc{Design of a demodulator}}\\
+{\large \textsc{Supervisor Ondrej Harwot }}\\
+%{\normalfont{Group 5}}\\
+\vspace*{4\onelineskip}
+%\large\textsc{Mats Larsen}\\
+%\large\textsc{Dan Nguyen}\\
+\large\textsc{Mats Larsen}\par}
+\vfill
+\vspace*{2\onelineskip}
+\normalfont{Deadline:} \quad \hfill
+\normalfont{d. 14.05 2012}
+\vspace{2\onelineskip} \\
+\small
+\textsc{Czech Technical University in Prague - Electrical Faculty.}\\
+\end{center}
+\end{titlingpage}
+\settocdepth{subsection}
+%----------------------------------------------------------
+%indholdsfortegnelse
+\tableofcontents*
+
+%-----------------------------------------------------
+\chapter{Introduction}
+\input{introduction/introduction}
+%-----------------------------------------------------
+\chapter{Blockdiagram}
+\input{blockdiagram/blockdiagram}
+%-----------------------------------------------------
+\chapter{Description of blocks}
+\input{blocks/blocks}
+%-----------------------------------------------------
+\chapter{Suppression of noise}
+\input{noise/noise}
+%----------------------------------------------------
+\chapter{Conclusion}
+\input{conclusion/conclusion}
+\end{document}
